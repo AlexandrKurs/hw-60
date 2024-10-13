@@ -1,10 +1,12 @@
+
+import Chat from "./container/chat.tsx";
+
 const App = () => {
-
-  return (
-    <>
-
-    </>
-  )
+    return (
+        <div>
+            <Chat />
+        </div>
+    );
 };
 
 export default App;
