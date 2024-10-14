@@ -1,12 +1,12 @@
+import React from "react";
+import Chat from "./container/chat";
 
-import Chat from "./container/chat.tsx";
-
-const App = () => {
-    return (
-        <div>
-            <Chat />
-        </div>
-    );
+const App: React.FC = () => {
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
 };
 
 export default App;

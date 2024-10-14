@@ -1,5 +1,4 @@
-import React from 'react';
-import './chatHeader.css'
+import React from "react";
 
 const ChatHeader: React.FC = () => {
   return (
